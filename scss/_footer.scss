@@ -1,0 +1,38 @@
+/* Pie de Pagina */
+footer {
+    min-height: 132px;
+
+    & p {
+        color: $white;
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+    }
+}
+
+
+
+#iconos i {
+    font-size: 20px;
+    padding: 0 8px;
+    color: $white;
+}
+
+.creditos {
+    text-align: center;
+    background-color: #3f3f3f;
+    color: $white;
+    margin: 0;
+}
+
+#nombre {
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+
+    &:hover {
+        color: #eb7676;
+        transition: all 500ms ease !important;
+    }
+
+}

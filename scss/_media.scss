@@ -1,0 +1,34 @@
+@media (max-width: 991px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .servicio-fila {
+        text-align: center;
+    }
+}
+
+@media (max-width: 687.5px) {
+    .icono-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .copyright {
+        font-size: 18px !important;
+    }
+
+    .form-register {
+        width: 300px;
+    }
+
+    .form-register p {
+        font-size: 0.80rem;
+        text-align: center;
+    }
+
+    .form-register .elinput {
+        margin-left: 0;
+    }
+}

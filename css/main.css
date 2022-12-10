@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@800&family=Outfit&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@800&family=Outfit&family=Playfair+Display&family=Work+Sans:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@800&family=Outfit&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@800&family=Outfit&family=Playfair+Display&family=Work+Sans:wght@100&display=swap");
+body {
+  font-family: arial;
+  overflow-x: hidden; }
+
+h3 {
+  font-family: 'Playfair Display'; }
+
+article .animation {
+  transition: all 500ms ease; }
+  article .animation img {
+    border-radius: 0px 10px 0px 10px;
+    transition: all 500ms ease; }
+  article .animation img:hover {
+    transform: scale(1.2);
+    cursor: pointer; }
+
+.row {
+  align-items: center; }
+
+/* .blackgrey2, */
+footer {
+  background: #3f3f3f; }
+
+.card:hover {
+  box-shadow: -2px -1px 25px 4px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: -2px -1px 25px 4px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: -2px -1px 25px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s; }
+
+.tipo {
+  color: #252525;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600; }
+
+/* Formulario */
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: rgba(255, 255, 255, 0.925);
+  box-shadow: 7px 13px 37px #000; }
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .form-register p {
+    height: 20px;
+    font-size: 18px;
+    text-align: end;
+    margin: 3px; }
+  .form-register a {
+    color: rgba(255, 255, 255, 0.925);
+    text-decoration: none; }
+  .form-register a:hover {
+    color: rgba(255, 255, 255, 0.925);
+    text-decoration: underline; }
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.925);
+    font-size: 16px; }
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.925); }
+
+.elinput {
+  margin-left: -16px;
+  margin-top: -17px; }
+
+/* Pie de Pagina */
+footer {
+  min-height: 132px; }
+  footer p {
+    color: rgba(255, 255, 255, 0.925);
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600; }
+
+#iconos i {
+  font-size: 20px;
+  padding: 0 8px;
+  color: rgba(255, 255, 255, 0.925); }
+
+.creditos {
+  text-align: center;
+  background-color: #3f3f3f;
+  color: rgba(255, 255, 255, 0.925);
+  margin: 0; }
+
+#nombre {
+  cursor: pointer;
+  text-decoration: none;
+  color: red; }
+  #nombre:hover {
+    color: #eb7676;
+    transition: all 500ms ease !important; }
+
+/* Nav Bar */
+#menu a {
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.925); }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.color {
+  color: rgba(255, 255, 255, 0.925) !important;
+  font-size: 17px; }
+  .color:hover {
+    color: grey !important;
+    transition: all 500ms ease !important; }
+
+.burger {
+  justify-content: center; }
+
+.photo {
+  width: 75px;
+  height: 75px; }
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end; }
+
+.carousel-inner {
+  max-height: 100vh;
+  height: 100%;
+  width: 100%; }
+
+.argentina {
+  color: rgba(13, 110, 253, 0.75);
+  font-style: italic; }
+
+.fotos {
+  opacity: 0.8; }
+
+.texto {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.925);
+  top: 50px;
+  left: 50px;
+  right: 50px; }
+
+@media (max-width: 991px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .servicio-fila {
+    text-align: center; } }
+
+@media (max-width: 687.5px) {
+  .icono-wrap {
+    flex-wrap: wrap;
+    justify-content: center !important; }
+  .copyright {
+    font-size: 18px !important; }
+  .form-register {
+    width: 300px; }
+  .form-register p {
+    font-size: 0.80rem;
+    text-align: center; }
+  .form-register .elinput {
+    margin-left: 0; } }

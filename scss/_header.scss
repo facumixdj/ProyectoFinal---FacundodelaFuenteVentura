@@ -1,0 +1,56 @@
+/* Nav Bar */
+#menu a {
+    font-weight: bold;
+    font-size: 1rem;
+    color: $white;
+}
+
+.navbar {
+    background-color: $back-var-color;
+}
+
+.color {
+    color: $white !important;
+    font-size: 17px;
+
+    &:hover {
+        color: grey !important;
+        transition: all 500ms ease !important;
+    }
+}
+
+.burger {
+    justify-content: center;
+}
+
+.photo {
+    width: $img-box-size;
+    height: $img-box-size;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.carousel-inner {
+    max-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+.argentina {
+    color: $argentina;
+    font-style: italic;
+}
+
+.fotos {
+    opacity: 0.8;
+}
+
+.texto {
+    position: absolute;
+    color: $white;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+}

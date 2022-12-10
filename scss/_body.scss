@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@800&family=Outfit&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@800&family=Outfit&family=Playfair+Display&family=Work+Sans:wght@100&display=swap");
+
+
+
+body {
+    font-family: arial;
+    overflow-x: hidden;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+}
+
+article .animation {
+    transition: all 500ms ease;
+
+    & img {
+        border-radius: $boder-radius;
+        transition: all 500ms ease;
+    }
+
+    & img:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
+
+.row {
+    align-items: center;
+}
+
+/* .blackgrey2, */
+footer {
+    background: #3f3f3f;
+}
+
+
+.card:hover {
+    box-shadow: $shadow-box $shadow-color;
+    -webkit-box-shadow: $shadow-box $shadow-color;
+    -moz-box-shadow: $shadow-box $shadow-color;
+    transition: 0.5s;
+}
+
+.tipo {
+    color: #252525;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* Formulario */
+
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: $white;
+    box-shadow: 7px 13px 37px #000;
+
+    & h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    & p {
+        height: 20px;
+        font-size: 18px;
+        text-align: end;
+        margin: 3px;
+    }
+
+    & a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    & a:hover {
+        color: $white;
+        text-decoration: underline;
+    }
+
+    & .botons {
+        width: 100%;
+        background: $color-blue;
+        border: none;
+        padding: 12px;
+        color: $white;
+        font-size: 16px;
+    }
+}
+
+
+
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid $color-blue;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: $white;
+}
+
+
+
+.elinput {
+    margin-left: -16px;
+    margin-top: -17px;
+}
+
